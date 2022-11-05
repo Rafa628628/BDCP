@@ -8,7 +8,7 @@ Hierarchical change-point detection method for multivariate time series using Eu
 }
 
 \usage{
-CP(ts, method = "origin", mss = 3, pt = 0.05,
+CP(ts, method = "powell", mss = 3, pt = 0.05,
   is_Euclidean_distance = TRUE, distance = NULL, block_size = 1)
 }
 \arguments{
