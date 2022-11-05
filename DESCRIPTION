@@ -1,16 +1,10 @@
 Package: CP
 Type: Package
 Title: Change points detection method based on metric binary partition function.
-Version: 0.1.3
+Version: 0.1.5
 Author: Yanhe Shen, Qiang Zhang.
 Maintainer: The package maintainer <zhangqiang@cdu.edu.cn>
-Description: This is the R package for "Statistical inference of dynamical regime changes in stochastic sequences in metric spaces".
-We introduce a nonparametric approach that identifies change points of non-Euclidean data in metric spaces. 
-Using the metric, we define a metric-based binary partition function that reaches the maximum at a change point. 
-We not only show that our approach can estimate the number of change-points and detect their locations consistently 
-but also provide that the convergence rate of the estimated change points  is optimal. 
-Extensive simulation studies and analysis of a real dataset demonstrate that our method has considerable advantages over state-of-the-art methods, 
-especially when data are non-Euclidean or covariance structures change over time.
+Description: This is the R package for "Statistical inference of dynamical regime changes in stochastic sequences in metric spaces". We introduce a nonparametric approach that identifies change points of non-Euclidean data in metric spaces. Using the metric, we define a metric-based binary partition function that reaches the maximum at a change point. We not only show that our approach can estimate the number of change-points and detect their locations consistently but also provide that the convergence rate of the estimated change points  is optimal. Extensive simulation studies and analysis of a real dataset demonstrate that our method has considerable advantages over state-of-the-art methods, especially when data are non-Euclidean or covariance structures change over time.
 LinkingTo: Rcpp
 Imports: Rcpp
 License: GPL-3
