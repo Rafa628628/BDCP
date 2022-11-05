@@ -15,7 +15,7 @@
 #' @useDynLib CP, .registration = TRUE
 #' @examples
 CP = function(ts,
-              method = 'origin',
+              method = 'powell',
               mss = 3,
               pt = 0.05,
               is_Euclidean_distance = TRUE,
